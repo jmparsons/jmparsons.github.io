@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.jmparsons</groupId>
+    <artifactId>play-lessc</artifactId>
+    <packaging>jar</packaging>
+    <description>play-lessc</description>
+    <version>0.0.5</version>
+    <name>play-lessc</name>
+    <organization>
+        <name>com.jmparsons</name>
+    </organization>
+    <properties>
+        <sbtVersion>0.12</sbtVersion>
+        <scalaVersion>2.9.2</scalaVersion>
+        <extraDependencyAttributes>+e:scalaVersion:#@#:+2.9.2:#@#:+revision:#@#:+2.1.2:#@#:+module:#@#:+sbt-plugin:#@#:+e:sbtVersion:#@#:+0.12:#@#:+organisation:#@#:+play:#@#:+branch:#@#:+@#:NULL:#@:#@#:</extraDependencyAttributes>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.12.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>play</groupId>
+            <artifactId>sbt-plugin</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>TypesafeRepository</id>
+            <name>Typesafe Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
